@@ -2,7 +2,8 @@ sudo: required
 language: c
 services:
     - docker
-
+arch:
+  - ppc64le
 matrix:
     include:
         # cross compilation
